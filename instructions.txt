@@ -1,0 +1,14 @@
+Create a  Hangman game with JavaScript. Have an array of words and randomly pick one at the start of each game. Initially, only show the first and the last letter of word like this:
+
+a _ _ _ _ _ _ e
+
+If the first or the last letter are also present in the middle of the word - show them as well.
++Ask the player to enter a single letter.
++If he enters a letter present in the word - show it, otherwise the player loses a life.
++When the player reaches 0 lives - he loses the game.
++If he uncovers all the letters in the word - he wins.
++By default the player should have 5 lives.
+
+Bonus: Try to show a different ASCII "image" of the hanged man, depending on how many remaining lives the player has.
+
+When the game is over - ask if the player wants to play again.

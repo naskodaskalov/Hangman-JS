@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Javascript Hangman Game</title>
+    <link rel="stylesheet" href="style.css">
+    <script
+            src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+    <script src="hangman.js"></script>
+</head>
+<body>
+
+<div class="container">
+    <h1>Javascript Hangman Game</h1>
+    <form id="gameInputs">
+        <input type="text" id="guessLetter" placeholder="enter a letter" maxlength="1"/>
+        <input type="submit" id="submitBtn" value="Guess letter" />
+    </form>
+
+    <div class="current-word">
+    </div>
+
+    <div class="info-panel">
+    </div>
+</div>
+</body>
+</html>
